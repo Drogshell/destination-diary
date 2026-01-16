@@ -1,12 +1,24 @@
+import styles from "./Product.module.css";
 import NavBar from "../components/NavBar.jsx";
-
-function Pricing() {
+export default function Pricing() {
   return (
-    <div>
+    <main className={styles.product}>
       <NavBar />
-      <h1>Pricing 💵</h1>
-    </div>
+      <section>
+        <div>
+          <h2>
+            Simple pricing.
+            <br />
+            Just $1000/month. 🤑
+          </h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae vel
+            labore mollitia iusto. Recusandae quos provident, laboriosam fugit
+            voluptatem iste.
+          </p>
+        </div>
+        <img src="/img-2.jpg" alt="overview of a large city with skyscrapers" />
+      </section>
+    </main>
   );
 }
-
-export default Pricing;
