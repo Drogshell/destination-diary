@@ -16,7 +16,7 @@ export default function Homepage() {
           A diary that tracks your destinations. Never forget your life changing
           experiences.
         </h2>
-        <Link to="/app" className="cta">
+        <Link to="/login" className="cta">
           Start Tracking Now
         </Link>
       </section>
